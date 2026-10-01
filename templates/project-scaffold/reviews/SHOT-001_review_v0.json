@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "0.1",
+  "projectId": "PROJECT-TEMPLATE",
+  "sceneId": "SCENE-001",
+  "shotId": "SHOT-001",
+  "promptVersionId": "",
+  "generationRunId": "",
+  "evidenceLevel": "unverified",
+  "reviewStatus": "not-reviewed",
+  "observed": [],
+  "failureModes": [],
+  "change": [],
+  "preserve": [],
+  "decision": "hold",
+  "nextAction": "先完成资产、表演和镜头编译",
+  "reviewer": "edit-review",
+  "reviewedAt": ""
+}

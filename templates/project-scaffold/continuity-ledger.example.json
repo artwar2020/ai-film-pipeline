@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "0.1",
+  "projectId": "PROJECT-TEMPLATE",
+  "sceneId": "SCENE-001",
+  "shots": [
+    {
+      "shotId": "SHOT-001",
+      "version": "v0",
+      "startState": {
+        "characters": [],
+        "props": [],
+        "positions": [],
+        "gazeLines": [],
+        "lighting": "",
+        "sound": ""
+      },
+      "endState": {
+        "characters": [],
+        "props": [],
+        "positions": [],
+        "gazeLines": [],
+        "lighting": "",
+        "sound": ""
+      },
+      "evidenceLevel": "unverified",
+      "change": [],
+      "preserve": [],
+      "risks": []
+    }
+  ],
+  "adjacentChecks": [],
+  "lastReviewedAt": ""
+}

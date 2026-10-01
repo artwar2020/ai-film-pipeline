@@ -1,0 +1,4 @@
+{
+  "$ref": "../../schemas/shot-spec.example.json",
+  "note": "复制后移除 $ref 和 note，再填写本项目事实"
+}

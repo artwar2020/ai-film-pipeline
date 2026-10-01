@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "0.1",
+  "projectId": "PROJECT-TEMPLATE",
+  "title": "新电影项目",
+  "format": "short-film",
+  "language": "zh-CN",
+  "delivery": {
+    "target": "",
+    "aspectRatio": "",
+    "durationSeconds": null,
+    "platform": "unknown"
+  },
+  "status": "draft",
+  "currentStage": "P0",
+  "currentOwner": "producer",
+  "evidencePolicy": {
+    "allowPaidGeneration": false,
+    "requireArtifactForVerified": true,
+    "unknownsMustBeExplicit": true
+  },
+  "canon": {
+    "storyVersion": "v0",
+    "characters": [],
+    "scenes": [],
+    "props": []
+  },
+  "agents": {
+    "enabled": [
+      "producer",
+      "story",
+      "lira-image",
+      "acting",
+      "cinematic-technique",
+      "cinedance",
+      "continuity",
+      "sound",
+      "edit-review"
+    ]
+  },
+  "shots": [],
+  "promptVersions": [],
+  "generationRuns": [],
+  "reviews": []
+}

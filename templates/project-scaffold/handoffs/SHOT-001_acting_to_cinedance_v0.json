@@ -1,0 +1,19 @@
+{
+  "handoffVersion": "0.1",
+  "projectId": "PROJECT-TEMPLATE",
+  "sceneId": "SCENE-001",
+  "shotId": "SHOT-001",
+  "fromAgent": "acting",
+  "toAgent": "cinedance",
+  "status": "draft",
+  "sourceRecords": ["../canon/README.md", "../../agents/acting.md"],
+  "inputs": ["storyIntent", "characterObjective", "performanceBeat"],
+  "decisions": [],
+  "constraints": [],
+  "unknowns": ["角色目标、阻碍和动作尚未填写"],
+  "change": [],
+  "preserve": [],
+  "risks": ["不能编译为可执行镜头，直到表演节拍明确"],
+  "acceptance": ["每个主要角色都有可见目标和至少一个可观察反应"],
+  "createdAt": ""
+}

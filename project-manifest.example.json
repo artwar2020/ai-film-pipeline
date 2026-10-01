@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "0.1",
+  "projectId": "FILM-001",
+  "title": "",
+  "format": "short-film",
+  "language": "zh-CN",
+  "delivery": {
+    "target": "",
+    "aspectRatio": "",
+    "durationSeconds": null,
+    "platform": "unknown"
+  },
+  "evidencePolicy": {
+    "allowPaidGeneration": false,
+    "requireArtifactForVerified": true,
+    "unknownsMustBeExplicit": true
+  },
+  "canon": {
+    "storyVersion": "v0",
+    "characters": [],
+    "scenes": [],
+    "props": []
+  },
+  "agents": {
+    "enabled": [
+      "producer",
+      "story",
+      "lira-image",
+      "acting",
+      "cinematic-technique",
+      "cinedance",
+      "continuity",
+      "sound",
+      "edit-review"
+    ],
+    "currentOwner": "producer"
+  },
+  "shots": [],
+  "promptVersions": [],
+  "generationRuns": [],
+  "reviews": []
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "0.1",
+  "projectSystem": "ai-film-engineering",
+  "agents": [
+    {"id":"producer","label":"制片 / 项目管理","phase":"P0","owns":["ProjectBible"],"doesNotOwn":["Prompt正文"]},
+    {"id":"story","label":"故事与剧本","phase":"P0","owns":["StoryCanon","SceneCanon"],"doesNotOwn":["视觉资产","镜头参数"]},
+    {"id":"lira-image","label":"LIRA 图片资产","phase":"P1","owns":["AssetRecord","ImagePrompt"],"source":"D:/设计工场/BaiduSyncdisk/南通文创设计/LIRA SKILL.md"},
+    {"id":"acting","label":"ACTING 表演","phase":"P1","owns":["PerformanceProfile","PerformanceBeat"],"source":"D:/设计工场/BaiduSyncdisk/南通文创设计/ACTING SKILL.md + C:/Users/509/Documents/ChatGPT/提示词收集管理/library/04-表演.md"},
+    {"id":"cinematic-technique","label":"电影技法","phase":"P2","owns":["TechniqueCard","CinematicDecision"],"source":"https://melies.co/cinematic-techniques + C:/Users/509/Documents/ChatGPT/提示词收集管理/55维知识库"},
+    {"id":"cinedance","label":"CINEDANCE 镜头执行","phase":"P2","owns":["PlatformPrompt","CameraLock","PhysicsLock"],"source":"D:/设计工场/BaiduSyncdisk/南通文创设计/CINEDANCE HIGGSFIELD SKILL.md + 19-AI电影导演Prompt编译器规范.md"},
+    {"id":"continuity","label":"连续性","phase":"P2","owns":["ContinuityLedger","ContinuityReview"],"source":"C:/Users/509/.codex/skills/ai-film-continuity/SKILL.md"},
+    {"id":"sound","label":"声音","phase":"P3","owns":["SoundPlan","AudioContinuity"]},
+    {"id":"edit-review","label":"剪辑与审片","phase":"P3","owns":["ReviewRecord","DeliveryDecision"]}
+  ],
+  "gates": ["G0-project","G1-canon","G2-assets","G3-performance","G4-shot","G5-continuity","G6-generation","G7-review"]
+}
