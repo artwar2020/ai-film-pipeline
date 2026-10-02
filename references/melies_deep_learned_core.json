@@ -1,0 +1,62 @@
+{
+  "Tracking Shot": {
+    "url": "https://melies.co/cinematic-techniques/camera-movement/tracking",
+    "narrative_function": "Accompany a walker. The picture is not a postcard of a person; it is duration spent in their path. Side-on tracking keeps cause, distance, and fatigue visible, which is why corridor fights and long walks live here. It is the wrong tool for a seated confession, and the wrong tool if you only panned f",
+    "prompt_it": "Lateral tracking shot of [Subject], camera matching pace on a parallel path, shoulder height, parallax of foreground, mid-ground, and deep background. For motion: the camera tracks alongside [Subject] at walking pace, holding a consistent distance. Copy prompt Use in Video Generator Side-on continuous shot of a tired security guard trying to pass three obstructing figures in a narrow service corri",
+    "what_goes_wrong": "The usual wrong cousin is a Pan Left from a locked head, or a Slow Zoom In that only changes size. The tell is no sliding foreground. The fix: a traveling support, matching pace, near objects passing."
+  },
+  "Close-Up": {
+    "url": "https://melies.co/cinematic-techniques/framing/close-up",
+    "narrative_function": "A close-up is a new fact on a face. It is the default for important dialogue because micro-expression, a lie, or a decision can be read without losing the idea of a person. The shoulders keep a little body in the sentence so a swallow or a turned collar still exists. It is the wrong tool when the be",
+    "prompt_it": "Name the anatomy. Example: Tight close-up of [Subject], head and upper shoulders, 75mm, shallow depth of field. Do not write choker, chest up, or a single eye. Keep a sliver of collar or shoulder so the model does not crop inside the face. For video, hold the head; a pull that reveals waist has become a different size. Copy prompt Use in Image Generator Tight close-up of [Subject], head and upper ",
+    "what_goes_wrong": "The usual wrong cousin is a Medium Close-Up (too much chest and room) or a Choker Shot (no shoulders). The tell is either a talking-head with a lot of torso, or a face with no neck. Fix: head and upper shoulders only. Another tell is calling any tight face a close-up when you meant ECU."
+  },
+  "Whip Tilt": {
+    "url": "https://melies.co/cinematic-techniques/camera-movement/whip-tilt",
+    "narrative_function": "Vertical shock instead of a horizontal whip. A body hits the floor, a face is found in a tree, a sign slams down from sky. The middle of the move should be unreadable on purpose. It is the wrong tool for a slow reveal of a tower, and the wrong tool if you needed the camera to fall with a body. Blurr",
+    "prompt_it": "Violent vertical whip tilt across [Subject], the frame ripping up or down with motion blur, then a hard stop. For motion: extremely fast vertical whip tilt across [Subject] with motion blur, then a hard stop. Copy prompt Use in Video Generator Extremely fast vertical whip tilt across [Subject] with motion blur, then a hard stop. Extremely fast vertical whip tilt across [Subject] with motion blur, ",
+    "what_goes_wrong": "The usual wrong cousin is a Whip Pan or a fast Tilt Down that remains readable. The tell is horizontal streaks, or a clear building in the middle of the move. The fix: vertical blur, planted support, sharp landing."
+  },
+  "Dutch Angle": {
+    "url": "https://melies.co/cinematic-techniques/camera-angles/dutch-angle",
+    "narrative_function": "Pitch looks up or down. Roll breaks the floor. A Dutch (canted, oblique) shot is a choice about gravity, not about power height. Use it when the moral or mental line is already bent: a sick city, a fight that will not stay fair, a mind that cannot stand up. Adjacent level shots make the cant mean so",
+    "prompt_it": "Name the roll in degrees and keep the buildings straight. Quote: Dutch angle of [Subject], camera rolled 20 to 30 degrees, diagonal horizon, moral or mental tilt. Add: static cant, walls rigid, not a low angle, not a rolling camera. If the model warps anatomy, say natural body proportions, only the horizon is tilted. Copy prompt Use in Video Generator A tenant confronts a landlord in a narrow stai",
+    "what_goes_wrong": "The usual wrong cousin is Low Angle (pitch) or a moving Dutch Roll . Tell: ceiling in frame but horizon level, or the camera rotating during the shot when you wanted a still lean. Fix: level pitch, roll 20 to 30 degrees, lock it. The other failure is 60-degree decoration on every setup. If the next "
+  },
+  "Ground Level": {
+    "url": "https://melies.co/cinematic-techniques/camera-angles/ground-level",
+    "narrative_function": "From the dirt, a walk is a sequence of soles. A coat trailing, a wheel, a dropped gun, a snake&#39;s view of a street: the floor is the foreground and architecture goes large above it. Westerns and car films live here because the ground is where decisions land. Worm&#39;s-Eye View is the cousin that",
+    "prompt_it": "Name the floor as foreground. Quote: Ground-level camera looking steeply up at [Subject], lens nearly on the floor, boots and trailing coat monumental. If you want the along-the-dirt variant, say looking along the ground, boots in the near field, horizon low, not straight up at the sky. Copy prompt Use in Image Generator Ground-level camera looking steeply up at [Subject], lens nearly on the floor",
+    "what_goes_wrong": "The usual wrong cousin is Low Angle from kneeling height with a clean floor and a full face. Tell: no near-ground texture, no boots, camera clearly at knee-plus. Fix: lens nearly on the floor, grit or pavement sharp in the foreground. If the shot is only nostrils and sky, you drifted into Worm&#39;s"
+  },
+  "Rack Focus": {
+    "url": "https://melies.co/cinematic-techniques/effects/rack-focus",
+    "narrative_function": "A brass key is sharp on a desk. The woman in the doorway is soft. Over about two seconds the key goes, her face arrives. Nobody moved. The audience felt a handoff inside one space. Use it to change who owns the shot without cutting: pursuer and pursued, a clue and a face, a listener and the person w",
+    "prompt_it": "Name both planes and the duration. Still: Rack focus between planes around [Subject], a two-second pull from foreground to the figure or the reverse. Video: Focus racks from a named foreground element onto [Subject] over about two seconds, shallow depth of field, locked camera, no zoom. Copy prompt Use in Video Generator Locked composition: a brass key in sharp foreground on a desk, a woman blurre",
+    "what_goes_wrong": "Wrong cousin: a cut, a morph, or both planes staying sharp. Tell: no defocus, details melting, or a zoom pretending to be a pull. Fix: hold framing, send one plane soft while the other comes true, and keep identities stable."
+  },
+  "Chiaroscuro Lighting": {
+    "url": "https://melies.co/cinematic-techniques/lighting/chiaroscuro",
+    "narrative_function": "A single warm source, a face turning into light, the rest of the room falling away: the audience reads character as a matter of what remains visible. Tenebrism is the hard end of this, where everything beyond arm&#39;s reach is black. Crime, period night, and religious doubt all use the same physics",
+    "prompt_it": "One source, fast falloff, modeled planes. &quot; Name the lamp. Forbid extra fill and even ambient. Copy prompt Use in Video Generator A tailor listens to an uneasy visitor in a dim back room. One high window shapes half the tailor’s face; the rest falls into deep but readable shadow. Warm desk practical in the distance, no even beauty fill, no crushed featureless blacks. A tailor listens to an un",
+    "what_goes_wrong": "The usual wrong cousin is muddy underexposure. The tell is no key direction and featureless blacks. Fix it by placing one warm source, flagging bounce, and exposing the lit planes."
+  },
+  "Rain Atmosphere": {
+    "url": "https://melies.co/cinematic-techniques/atmosphere/rain",
+    "narrative_function": "Silver needles between a lamp and the lens. Shoulders darken. Puddles double the neon. Weather is percussion you can see. Make the air visible and the ground reflective. Use it when the scene must be wet in depth, not only on a window pane. It is the wrong tool when you only need specular streets at",
+    "prompt_it": "Heavy rain around [Subject], backlit drops, wet-down pavement, umbrellas, silver streaks, weather as percussion. Name the backlight (a streetlamp, a sign, a HMI behind the rain), the wet ground, and drop size. For video, falling streaks in depth, splashes, no dry asphalt. Do not write a mood word in place of the water. Copy prompt Use in Image Generator Heavy cinematic rain around [Subject], backl",
+    "what_goes_wrong": "The usual wrong cousin is Wet-Down (shiny street, empty air) or a blue LUT called rain. The tell: no streaks against lamps, dry shoulders, no puddles. The fix: put drops in the air, backlight them, wet the ground."
+  },
+  "Levitation / Anti-Gravity": {
+    "url": "https://melies.co/cinematic-techniques/effects/levitation",
+    "narrative_function": "Someone leaves the floor and stays. The room does not drop away. The camera often holds so we can read the air under the shoes. Use it when weight is optional and the performance should still look human: a takeoff, an apex, a landing. It is the wrong tool for a fall. If the body is going down, even ",
+    "prompt_it": "Levitation of [Subject], body or object refusing gravity, a quiet impossible hover. Video: [Subject] hangs in air, slow drift, no visible support. Name the gap under the feet, the hang of cloth, and takeoff or landing if they exist. Copy prompt Use in Video Generator A fictional acrobat crosses between two low rooftops in one graceful extended leap. Clear push-off, smooth rising arc, brief suspens",
+    "what_goes_wrong": "The usual wrong cousin is a balloon hover or a fall shot in slow motion. The tell is missing takeoff and landing, rubber limbs, or cloth that floats as if underwater. The fix is a readable gap, downward hang of fabric, and a human push-off or settle."
+  },
+  "Reverse Motion": {
+    "url": "https://melies.co/cinematic-techniques/time-and-motion/reverse-motion",
+    "narrative_function": "Use it for trick photography, grief that wants an undo, or a world whose physics run the other way. The audience reads inverted inertia: water, cloth, sparks, and footsteps all lie. A single reversed gesture can feel like a spell. A whole reversed fight can feel like entropy running downhill in the ",
+    "prompt_it": "Name inverted physics, not a shuffled outline. Still: a tell such as rain hanging upward, glass mid-reassembly, smoke drawing in. Video: The action around [Subject] plays in reverse: rain rising, smoke inhaling, motion undone. Ordinary-speed scenes in reverse order is a different brief. Copy prompt Use in Video Generator Create four ordinary-speed scenes about a broken friendship: an unopened apol",
+    "what_goes_wrong": "The usual wrong cousin is reverse chronology or a Boomerang . The tell is a normal-speed scene shuffle, or a clip that goes forward then snaps back. Fix: reverse one recorded action and show fluids, cloth, or debris traveling the wrong way along a single path."
+  }
+}
